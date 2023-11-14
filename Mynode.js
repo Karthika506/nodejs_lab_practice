@@ -12,18 +12,7 @@
 // server.listen(PORT, () =>{
 //     console.log(`Server is running on Port ${PORT}`);
 // });
-// const http = require('http');
-// const PORT = 6001;
-
-// const server = http.createServer((req,res) => {
-//   res.statusCode = 200;
-//   res.setHeader('Content-Type','text/plain');
-//   res.end('Hello, Node.js Server! \n');
-// });
-
-// server.listen(PORT, () => {
-//   console.log(`Server is running at http://localhost:${PORT}/`)
-// })
+// 
 
 
 // 3. 	Create a route that returns a JSON response containing your name and email.
@@ -93,23 +82,23 @@
 
 //7.
 
-const express = require('express');
-const path = require('path');
+// const express = require('express');
+// const path = require('path');
 
-const app = express();
+// const app = express();
 
-// Define all your other routes here...
-app.get('/',(req,res)=>{
-    res.send('Hello world');
-})
-// Custom 404 error page middleware
-app.use(function(req, res, next) {
- res.status(404).send("sorry can't find page")
-});
+// // Define all your other routes here...
+// app.get('/',(req,res)=>{
+//     res.send('Hello world');
+// })
+// // Custom 404 error page middleware
+// app.use(function(req, res, next) {
+//  res.status(404).send("sorry can't find page")
+// });
 
-app.listen(3000, function() {
- console.log('Server is running on port 3000');
-});
+// app.listen(3000, function() {
+//  console.log('Server is running on port 3000');
+// });
 
 
 

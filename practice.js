@@ -1,4 +1,4 @@
-// 	Implement URL parameter routing to display specific content based on the URL.(Eg: ‘/’, ‘/home’, ‘/profile’, etc.,)
+// 	2.Implement URL parameter routing to display specific content based on the URL.(Eg: ‘/’, ‘/home’, ‘/profile’, etc.,)
 
 // const http = require('http');
 // const url = require('url');
@@ -30,7 +30,6 @@
 
 // 4.	Implement a route that accepts POST requests and logs the request data to the console.
 
-// 4. Implement a route that accepts POST requests and logs the request data to the console.
 // const express = require('express');
 // const bodyParser = require('body-parser');
 
